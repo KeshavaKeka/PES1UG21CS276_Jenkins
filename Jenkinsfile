@@ -4,7 +4,7 @@ pipeline {
         stage('Build') { 
             steps {
                 sh 'echo "building"'
-                build 'PES1UG21CS276-1'
+                build 'PES1U6-1'
                 sh 'g++ jenk.cpp -o output'
             }
         }
